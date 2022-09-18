@@ -10,8 +10,7 @@
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    line-height: 1.5;  
-    
+    line-height: 1.5;    
 }
 
 .container {
@@ -19,20 +18,17 @@ body {
     margin:0 auto;
     padding: 0 30px;
     display: flex;
-    min-width: 900px;
 }
 
 .navbar {
     color: #fff;
     background-color: #1F2937;
-
 }
 
 .navbar .container {
     justify-content: space-between;
     align-items: center;
     padding-top: 10px;
-        
 }
 
 .logo {
@@ -43,13 +39,11 @@ body {
 .headerlink {
     display: flex;
     gap: 15px;
-
 }
 
 .header {
     background-color: #1F2937;
     color: #fff;
-   
 }
 
 .header .container {
@@ -64,7 +58,6 @@ body {
 .heroleft {
     text-align: left;
     max-width: 45%;
-
 }
 
 .heroheader,
@@ -91,7 +84,6 @@ body {
     flex: 1 0;
     padding: 75px 0 75px 0;
     justify-content: center;
-
 }
 
 .heroleft button {
@@ -100,7 +92,6 @@ body {
     padding: 5px 25px;
     border-radius: 7px;
     border: 2px solid #1F2937;
-
 }
 
 .information .container {
@@ -111,20 +102,17 @@ body {
     font-weight: bolder;
     margin-top: 20px;
     margin-bottom: 20px;
-   
 }
 
 .boxtext .container {
     justify-content: center;
-    gap: 30px;
+    gap: 75px;
     margin-bottom: 50px;
-    
 }
 
 .boxandtext {
     width: 150px;
     justify-content: center;
-    
 }
 
 .box {
@@ -140,13 +128,13 @@ body {
 
 .quotebox {
     background-color: #E5E7EB;
-    padding: 80px;
-
+    padding: 80px;    
 }
 
 .quotebox .container {
     flex-direction: column;
     align-items: center;
+   width: 750px;
 }
 
 .quote {
@@ -161,10 +149,6 @@ body {
     font-size: 24px;
 }
 
-.signing {
-    /* margin: 150px; */
-}
-
 .signing .container {
     background-color: #3882f6;
     padding-top: 35px;
@@ -176,12 +160,12 @@ body {
     margin-bottom: 50px;
     border-radius: 12px;
     align-items: center;
+    min-width: 900px;
 }
 
 .call,
 .instruction {
     color:#F9FAF8;
-    
 }
 
 .call {
@@ -200,11 +184,9 @@ body {
     background-color: #1F2937;
     color:#F9FAF8;
     font-size: smaller;
-
 }
 
 .footer .container {
     justify-content: center;
     padding: 15px;
-
 }
